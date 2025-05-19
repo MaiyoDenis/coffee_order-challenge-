@@ -1,10 +1,4 @@
-import sys
-import os
 import pytest
-
-# Add current directory to sys.path to import modules
-sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
-
 from customer import Customer
 from coffee import Coffee
 from order import Order
